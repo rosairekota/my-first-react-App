@@ -11,7 +11,7 @@ const Card = (props) => {
             <div className={props.className}>
                 <ImageAvatar src={profile} className="img-circle" alt="image-avatar"/>
                 <Biography className="title-group"/>
-                <Bouton className="btn-delete" label="x"/>
+                <Bouton className="btn-delete"/>
             </div>
         </>
     )
